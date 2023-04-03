@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="sport.css">
+    <meta name="viewport" content="width=device-width">
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Mój ulubiony sport</title>
+            <body>
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html" class="active">Główna</a>
+                    <a href="sport2.html">Zasady szachów</a>
+                    <a href="sport3.html">Ulubiony reprezentant</a>
+                    <a href="sport4.html">Film</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
+                  
+                  <div style="padding-left:16px">
+                    <center><h2>Mój ulubiony sport-Szachy</h2></center>
+                    <center><img src="jkd.jpg" alt="Flowers in Chania" width="1200" height="700" id="photo"></center>
+                  </div>
+                  <script>
+                    function myFunction() {
+                      var x = document.getElementById("myTopnav");
+                      if (x.className === "topnav") {
+                        x.className += " responsive";
+                      } else {
+                        x.className = "topnav";
+                      }
+                    }
+                    </script>
+            </body>
+        </head>
+    </html>

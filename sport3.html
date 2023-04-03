@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="sport2.css">
+    <meta name="viewport" content="width=device-width">
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Mój ulubiony sport</title>
+            <body>
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html">Główna</a>
+                    <a href="sport2.html" id="Dyscyplina">Zasady szachów</a>
+                    <a href="sport3.html" class="active" style="background-color: black;">Ulubiony reprezentant</a>
+                    <a href="sport4.html">Film</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
+                  <div id="text">
+                    <center><h1>Mój Ulubiony Reprezentant</h1></center>
+                    <div id="left">.</div>
+                    <div id="mid">
+                    <div style="height:1000px;font-size:32px" id="plecy">
+                        <p id="tekst">
+                            Tomek to dosyć młody ambitny szachista z tytulem CM gra od 2004r. Jest bardzo mocnym szachista na porządku dzienym jest ogrywanie takich arcymistrzow jak Magnus Carlsen,Hikaru Nakamura,Jan-Krzysztof Duda.Zawodowo streamuje na twichu i robi filmy na youtuba.
+                        </p>
+                        <center><img src="tomcio.jpg" alt="Flowers in Chania" width="500" height="600" id="photo"></center>
+                        </div>
+                    </div>
+                  </div>
+                  <div id="right"></div>
+                  <script>
+                    function myFunction() {
+                      var x = document.getElementById("myTopnav");
+                      if (x.className === "topnav") {
+                        x.className += " responsive";
+                      } else {
+                        x.className = "topnav";
+                      }
+                    }
+                    </script>
+            </body>
+        </head>
+    </html>

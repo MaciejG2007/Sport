@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="sport2.css">
+    <meta name="viewport" content="width=device-width">
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Mój ulubiony sport</title>
+            <body>
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html">Główna</a>
+                    <a href="sport2.html" id="Dyscyplina">Zasady szachów</a>
+                    <a href="sport3.html">Ulubiony reprezentant</a>
+                    <a href="sport4.html" class="active" style="background-color: black;">Film</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
+                  <div id="text">
+
+
+                    <div style="height:1000px;font-size:32px" id="plecy">
+                        <center><iframe width="1600" height="900" src="https://www.youtube.com/embed/kFDpvsdHuFE?autoplay=1" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen>
+                        </iframe></center>
+                        </div>
+
+                  </div>
+                  <script>
+                    function myFunction() {
+                      var x = document.getElementById("myTopnav");
+                      if (x.className === "topnav") {
+                        x.className += " responsive";
+                      } else {
+                        x.className = "topnav";
+                      }
+                    }
+                    </script>
+            </body>
+        </head>
+    </html>

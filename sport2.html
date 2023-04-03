@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="sport2.css">
+    <meta name="viewport" content="width=device-width">
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Mój ulubiony sport</title>
+            <body>
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html">Główna</a>
+                    <a href="sport2.html" id="Dyscyplina" class="active" style="background-color: black;">Zasady szachów</a>
+                    <a href="sport3.html">Ulubiony reprezentant</a>
+                    <a href="sport4.html">Film</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
+                  <div id="text">
+                    <center><h1>Zasady</h1></center>
+                    <div id="left">.</div>
+                    <div id="mid">
+                    <div style="height:1000px;font-size:30px" id="plecy">
+                        <p id="tekst">
+                            Rozgrywa się ją na planszy nazywanej szachownicą, gdzie rozstawia się 32 bierki (sześciu rodzajów, w tym po 8 pionów i 8 figur, łącznie 16 dla każdego z graczy). Celem gry jest danie mata, tzn. zagrożenie królowi przeciwnika usunięciem z dalszej rozgrywki („zbiciem”), którego nie sposób uniknąć.
+                            Zasady gry w szachy – prawidła regulujące sposób rozgrywania partii szachów. Choć pochodzenie gry nie zostało dokładnie wyjaśnione, to współczesne zasady ukształtowały się w średniowieczu. Ewoluowały one do początków XIX wieku, kiedy to osiągnęły właściwie swą bieżącą postać. W zależności od miejsca zasady gry różniły się od siebie, współcześnie za przepisy gry odpowiada Międzynarodowa Federacja Szachowa (Fédération Internationale des Échecs, FIDE). Przepisy te mogą się różnić w przypadku różnych wariantów gry, np. dla szachów szybkich, błyskawicznych czy korespondencyjnych.
+
+                            Szachy to gra, w której udział biorą dwie osoby. Rozgrywa się ją na planszy nazywanej szachownicą, gdzie rozstawia się 32 bierki (sześciu rodzajów, w tym po 8 pionów i 8 figur, łącznie 16 dla każdego z graczy). Celem gry jest danie mata, tzn. zagrożenie królowi przeciwnika usunięciem z dalszej rozgrywki („zbiciem”), którego nie sposób uniknąć. Gry jednak rzadko kończą się matem – gracze często poddają się, jeśli uważają, że dalsza gra doprowadzi do ich ostatecznej porażki. Zasady przewidują kilka sposobów remisowego zakończenia gry.
+                            
+                            Oprócz podstawowych zasad poruszania bierek zasady regulują także wykorzystywane wyposażenie, kontrolę czasu, zachowanie i etykę graczy, ułatwienia dla niepełnosprawnych graczy, zapis posunięć za pomocą notacji szachowej, jak również sposoby postępowania w przypadku nieprawidłowości napotkanych w czasie gry.
+                        </p>
+                        </div>
+                    </div>
+                  </div>
+                  <div id="right"></div>
+                  <script>
+                    function myFunction() {
+                      var x = document.getElementById("myTopnav");
+                      if (x.className === "topnav") {
+                        x.className += " responsive";
+                      } else {
+                        x.className = "topnav";
+                      }
+                    }
+                    </script>
+            </body>
+        </head>
+    </html>
